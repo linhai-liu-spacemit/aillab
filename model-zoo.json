@@ -779,7 +779,7 @@
     {
       "id": "vision",
       "name": "视觉模型",
-      "nameEn": "Computer Vision",
+      "nameEn": "Vision Models",
       "description": "目标检测、分割、跟踪等视觉任务模型",
       "performanceId": ["输入形状", "帧率（FPS）", "量化类型"],
       "performanceIdEn": ["Input Shape", "FPS", "Quant"],
