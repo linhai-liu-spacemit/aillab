@@ -612,7 +612,7 @@
         {
           "id": "qwen3-5-vl-0-8b",
           "categoryIds": [
-            "vision"
+            "vlm"
           ],
           "iconSrc": "",
           "experienceKind": "vlm",
@@ -645,7 +645,7 @@
         {
           "id": "qwen3-5-vl-2b",
           "categoryIds": [
-            "vision"
+            "vlm"
           ],
           "iconSrc": "",
           "experienceKind": "vlm",
@@ -678,7 +678,7 @@
         {
           "id": "qwen3-5-vl-4b",
           "categoryIds": [
-            "vision"
+            "vlm"
           ],
           "iconSrc": "",
           "experienceKind": "vlm",
@@ -711,7 +711,7 @@
         {
           "id": "qwen30ba3b-mm-q4-1",
           "categoryIds": [
-            "vision"
+            "vlm"
           ],
           "iconSrc": "",
           "experienceKind": "vlm",
@@ -744,7 +744,7 @@
         {
           "id": "fastvlm-mm-0-5b-q4-1",
           "categoryIds": [
-            "vision"
+            "vlm"
           ],
           "iconSrc": "",
           "experienceKind": "vlm",
