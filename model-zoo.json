@@ -5,6 +5,8 @@
       "name": "大语言模型",
       "nameEn": "Large Language Models",
       "description": "通用对话和文本生成模型",
+      "performanceId": ["TTFT(ms)", "PP128(token/s)", "TG128(token/s)", "量化类型"],
+      "performanceIdEn": ["TTFT(ms)", "PP128(token/s)", "TG128(token/s)", "Quant"],
       "models": [
         {
           "id": "qwen2-5-0-5b-q4-0",
@@ -27,10 +29,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/qwen2.5-0.5b-instruct-q4_0.gguf",
           "plat": [
@@ -58,10 +60,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "20.0",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/qwen2.5-1.5b-instruct-q4_0.gguf",
           "plat": [
@@ -89,10 +91,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/qwen2.5-3b-instruct-q4_0.gguf",
           "plat": [
@@ -120,10 +122,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/qwen2.5-7b-instruct-q4_0.gguf",
           "plat": [
@@ -153,8 +155,8 @@
             "Quant": "Q4_0",
             "PP128(token/s)": "478.45",
             "TG128(token/s)": "49.36",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "TTFT(ms)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-0.6B-Q4_0.gguf",
           "plat": [
@@ -182,10 +184,10 @@
           },
           "performance": {
             "Quant": "Q4_1",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_1"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-0.6B-Q4_1.gguf",
           "plat": [
@@ -213,10 +215,10 @@
           },
           "performance": {
             "Quant": "Q4_K_M",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_K_M"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-0.6B-Q4_K_M.gguf",
           "plat": [
@@ -244,10 +246,10 @@
           },
           "performance": {
             "Quant": "Q8_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q8_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-1.7B-Q8_0.gguf",
           "plat": [
@@ -275,10 +277,10 @@
           },
           "performance": {
             "Quant": "Q4_K_M",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_K_M"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-4B-Q4_K_M.gguf",
           "plat": [
@@ -306,10 +308,10 @@
           },
           "performance": {
             "Quant": "Q4_K_M",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_K_M"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-8B-Q4_K_M.gguf",
           "plat": [
@@ -340,7 +342,9 @@
             "PP128(token/s)": "57.41",
             "TG128(token/s)": "11.89",
             "PP1280(token/s)": "44.3",
-            "TG1280(token/s)": "10.7"
+            "TG1280(token/s)": "10.7",
+            "TTFT(ms)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3-30B-A3B-Q4_0.gguf",
           "plat": [
@@ -370,8 +374,8 @@
             "Quant": "Q4_0",
             "PP128(token/s)": "59.64",
             "TG128(token/s)": "24.30",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "TTFT(ms)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3.5-0.8B-Q4_0.gguf",
           "plat": [
@@ -399,10 +403,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3.5-2B-Q4_0.gguf",
           "plat": [
@@ -430,10 +434,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+            "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/Qwen3.5-4B-Q4_0.gguf",
           "plat": [
@@ -461,10 +465,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+             "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/LFM2-24B-A2B-Q4_0.gguf",
           "plat": [
@@ -492,10 +496,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+             "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/LFM2.5-1.2B-Instruct-Q4_0.gguf",
           "plat": [
@@ -523,10 +527,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+             "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/SmallThinker-4B-A0.6B-Instruct.Q4_0.gguf",
           "plat": [
@@ -554,10 +558,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+             "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/deepseek-r1-distill-qwen-1.5b-q4_0.gguf",
           "plat": [
@@ -585,10 +589,10 @@
           },
           "performance": {
             "Quant": "Q4_0",
-            "PP128(token/s)": "",
+             "TTFT(ms)": "",
             "TG128(token/s)": "",
-            "PP1280(token/s)": "",
-            "TG1280(token/s)": ""
+            "PP128(token/s)": "",
+            "量化类型": "Q4_0"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/llm/glm-edge-1.5b-chat-q4_0.gguf",
           "plat": [
@@ -599,9 +603,11 @@
     },
     {
       "id": "vlm",
-      "name": "视觉语言模型",
+      "name": "多模态模型",
       "nameEn": "Vision Language Models",
       "description": "图像理解和多模态对话模型",
+      "performanceId": ["输入图像", "TTFT", "Image Encoding", "Decode Speed", "量化类型"],
+      "performanceIdEn": ["Input Image", "TTFT", "Image Encoding", "Decode Speed", "Quant"],
       "models": [
         {
           "id": "qwen3-5-vl-0-8b",
@@ -623,12 +629,13 @@
             "Format": "tar.gz"
           },
           "performance": {
-            "Quant": "",
-            "Resolution": "",
-            "Input Tokens": "",
-            "Output Tokens": "",
-            "Image Encoding (ms)": "",
-            "Decode Speed (token/s)": ""
+            "Quant": "Q4_0",
+            "量化类型": "Q4_0",
+            "输入图像": "512×512",
+            "Input Image": "512×512",
+            "TTFT": "245 ms",
+            "Image Encoding": "241 ms",
+            "Decode Speed": "44 token/s"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vlm/Qwen3.5-0.8B.tar.gz",
           "plat": [
@@ -655,12 +662,13 @@
             "Format": "tar.gz"
           },
           "performance": {
-            "Quant": "",
-            "Resolution": "",
-            "Input Tokens": "",
-            "Output Tokens": "",
-            "Image Encoding (ms)": "",
-            "Decode Speed (token/s)": ""
+            "Quant": "Q4_0",
+            "量化类型": "Q4_0",
+            "输入图像": "512×512",
+            "Input Image": "512×512",
+            "TTFT": "245 ms",
+            "Image Encoding": "241 ms",
+            "Decode Speed": "44 token/s"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vlm/Qwen3.5-2B.tar.gz",
           "plat": [
@@ -687,12 +695,13 @@
             "Format": "tar.gz"
           },
           "performance": {
-            "Quant": "",
-            "Resolution": "",
-            "Input Tokens": "",
-            "Output Tokens": "",
-            "Image Encoding (ms)": "",
-            "Decode Speed (token/s)": ""
+            "Quant": "Q4_0",
+            "量化类型": "Q4_0",
+            "输入图像": "512×512",
+            "Input Image": "512×512",
+            "TTFT": "245 ms",
+            "Image Encoding": "241 ms",
+            "Decode Speed": "44 token/s"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vlm/Qwen3.5-4B.tar.gz",
           "plat": [
@@ -719,12 +728,13 @@
             "Quantization": "Q4_1"
           },
           "performance": {
-            "Quant": "",
-            "Resolution": "",
-            "Input Tokens": "",
-            "Output Tokens": "",
-            "Image Encoding (ms)": "",
-            "Decode Speed (token/s)": ""
+            "Quant": "Q4_0",
+            "量化类型": "Q4_0",
+            "输入图像": "512×512",
+            "Input Image": "512×512",
+            "TTFT": "245 ms",
+            "Image Encoding": "241 ms",
+            "Decode Speed": "44 token/s"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vlm/qwen30ba3b-mm-q4_1.tar.gz",
           "plat": [
@@ -751,12 +761,13 @@
             "Quantization": "Q4_1"
           },
           "performance": {
-            "Quant": "",
-            "Resolution": "",
-            "Input Tokens": "",
-            "Output Tokens": "",
-            "Image Encoding (ms)": "",
-            "Decode Speed (token/s)": ""
+            "Quant": "Q4_0",
+            "量化类型": "Q4_0",
+            "输入图像": "512×512",
+            "Input Image": "512×512",
+            "TTFT": "245 ms",
+            "Image Encoding": "241 ms",
+            "Decode Speed": "44 token/s"
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vlm/fastvlm-mm-0.5b-q4_1.tar.gz",
           "plat": [
@@ -770,6 +781,8 @@
       "name": "视觉模型",
       "nameEn": "Computer Vision",
       "description": "目标检测、分割、跟踪等视觉任务模型",
+      "performanceId": ["输入形状", "帧率（FPS）", "量化类型"],
+      "performanceIdEn": ["Input Shape", "FPS", "Quant"],
       "subcategories": [
         {
           "name": "目标检测",
@@ -821,9 +834,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "640×640",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov11/yolo11s.q.onnx",
               "plat": [
@@ -849,9 +865,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "640×640",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov11/yolo11m.q.onnx",
               "plat": [
@@ -877,9 +896,12 @@
                 "Deployment": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "59.8"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8/yolov8n.q.onnx",
               "plat": [
@@ -905,9 +927,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "37.2"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8/yolov8s.q.onnx",
               "plat": [
@@ -933,9 +958,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "19.8"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8/yolov8m.q.onnx",
               "plat": [
@@ -961,9 +989,12 @@
                 "Special Task": "Fire Detection"
               },
               "performance": {
-                "type": "int8",
-                "shape": "640×640",
-                "FPS": ""
+               "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8/yolov8_fire.q.onnx",
               "plat": [
@@ -989,9 +1020,12 @@
                 "Special Task": "Gesture Detection"
               },
               "performance": {
-                "type": "int8",
-                "shape": "",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov5/yolov5_gesture.q.onnx",
               "plat": [
@@ -1022,9 +1056,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "30.9"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov5-face/yolov5n-face_cut.q.onnx",
               "plat": [
@@ -1055,9 +1092,12 @@
                 "Keypoints": "17 Keypoints"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "52.4"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8_pose/yolov8n-pose.q.onnx",
               "plat": [
@@ -1083,9 +1123,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "33.0"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8_pose/yolov8s-pose.q.onnx",
               "plat": [
@@ -1111,9 +1154,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,640,640]",
-                "FPS": "18.6"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8_pose/yolov8m-pose.q.onnx",
               "plat": [
@@ -1172,9 +1218,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "640×640",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8_seg/yolov8s-seg.q.onnx",
               "plat": [
@@ -1200,9 +1249,12 @@
                 "Precision": "INT8"
               },
               "performance": {
-                "type": "int8",
-                "shape": "640×640",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/yolov8_seg/yolov8m-seg.q.onnx",
               "plat": [
@@ -1233,9 +1285,12 @@
                 "Backbone": "DeiT-Tiny"
               },
               "performance": {
-                "type": "int8",
-                "shape": "",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/AVTrack/avtrack_deit_tiny.q.onnx",
               "plat": [
@@ -1261,9 +1316,12 @@
                 "Precision": "FP32"
               },
               "performance": {
-                "type": "int8",
-                "shape": "",
-                "FPS": ""
+               "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/ocsort/ocsort_yoloxs_sim.fp32.onnx",
               "plat": [
@@ -1294,9 +1352,12 @@
                 "Backbone": "MobileFaceNet"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,112,112]",
-                "FPS": "50.9"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/arcface/arcface_mobilefacenet_cut.q.onnx",
               "plat": [
@@ -1327,9 +1388,12 @@
                 "Precision": "FP32"
               },
               "performance": {
-                "type": "int8",
-                "shape": "",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/stgcn/stgcn.fp32.onnx",
               "plat": [
@@ -1360,9 +1424,12 @@
                 "Network Depth": "50 Layers"
               },
               "performance": {
-                "type": "int8",
-                "shape": "[1,3,224,224]",
-                "FPS": "129.0"
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/resnet/resnet50.q.onnx",
               "plat": [
@@ -1388,9 +1455,12 @@
                 "Special Task": "Emotion Recognition"
               },
               "performance": {
-                "type": "int8",
-                "shape": "",
-                "FPS": ""
+                "输入形状": "[1,3,640,640]",
+                "Input Shape": "[1,3,640,640]",
+                "帧率（FPS）": "23",
+                "FPS": "23",
+                "量化类型": "INT8",
+                "Quant": "INT8"
               },
               "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/vision/resnet/emotion_resnet50_final.q.onnx",
               "plat": [
@@ -1402,15 +1472,17 @@
       ]
     },
     {
-      "id": "asr",
-      "name": "语音识别",
-      "nameEn": "Automatic Speech Recognition",
-      "description": "语音转文字模型",
+      "id": "speech",
+      "name": "语音模型",
+      "nameEn": "Speech Models",
+      "description": "语音模型",
+      "performanceId": ["任务", "音频时长", "处理时间", "RTF", "量化类型"],
+      "performanceIdEn": ["Task", "Audio Duration", "Processing Time", "RTF", "Quant"],
       "models": [
         {
           "id": "sensevoice",
           "categoryIds": [
-            "audio"
+            "speech"
           ],
           "iconSrc": "modelIcon4",
           "experienceKind": "audio",
@@ -1427,10 +1499,15 @@
             "Languages": "Multilingual"
           },
           "performance": {
-            "type": "int8",
+            "Quant": "INT8",
             "Audio Duration": "",
             "Processing Time": "",
-            "RTF": "0.35"
+            "RTF": "0.35",
+            "Task": "Speech Recognition",
+            "量化类型": "INT8",
+             "任务": "语音识别",
+             "音频时长": "",
+             "处理时间": ""
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/asr/sensevoice.tar.gz",
           "plat": [
@@ -1440,7 +1517,7 @@
         {
           "id": "qwen3-asr-0-6b-dynq-q40",
           "categoryIds": [
-            "audio"
+            "speech"
           ],
           "iconSrc": "",
           "experienceKind": "audio",
@@ -1457,28 +1534,25 @@
             "Quantization": "DynQ Q4_0"
           },
           "performance": {
-            "type": "Q4_0",
+            "Quant": "Q4_0",
             "Audio Duration": "",
             "Processing Time": "",
-            "RTF": ""
+            "RTF": "0.35",
+            "Task": "Speech Recognition",
+            "量化类型": "Q4_0",
+             "任务": "语音识别",
+             "音频时长": "",
+             "处理时间": ""
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/asr/qwen3-asr-0.6B-dynq-q40.tar.gz",
           "plat": [
             "K3"
           ]
-        }
-      ]
-    },
-    {
-      "id": "tts",
-      "name": "语音合成",
-      "nameEn": "Text-to-Speech",
-      "description": "文字转语音模型",
-      "models": [
+        },
         {
           "id": "matcha-tts",
           "categoryIds": [
-            "audio"
+            "speech"
           ],
           "iconSrc": "modelIcon5",
           "experienceKind": "text",
@@ -1495,10 +1569,15 @@
             "Feature": "Fast Generation"
           },
           "performance": {
-            "type": "FP32",
+            "Quant": "FP32",
             "Audio Duration": "",
             "Processing Time": "",
-            "RTF": "0.49"
+            "RTF": "0.49",
+            "Task": "Text-to-Speech",
+            "量化类型": "Q4_0",
+            "任务": "语音合成",
+            "音频时长": "",
+            "处理时间": ""
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/tts/matcha-tts/",
           "plat": [
@@ -1508,7 +1587,7 @@
         {
           "id": "matcha-icefall-en-us-ljspeech",
           "categoryIds": [
-            "audio"
+            "speech"
           ],
           "iconSrc": "",
           "experienceKind": "text",
@@ -1525,10 +1604,15 @@
             "Language": "English"
           },
           "performance": {
-            "type": "",
+            "Quant": "FP32",
             "Audio Duration": "",
             "Processing Time": "",
-            "RTF": ""
+            "RTF": "0.49",
+            "Task": "Text-to-Speech",
+            "量化类型": "Q4_0",
+            "任务": "语音合成",
+            "音频时长": "",
+            "处理时间": ""
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/tts/matcha-tts/matcha-icefall-en_US-ljspeech.tar.gz",
           "plat": [
@@ -1538,7 +1622,7 @@
         {
           "id": "matcha-icefall-zh-baker",
           "categoryIds": [
-            "audio"
+            "speech"
           ],
           "iconSrc": "",
           "experienceKind": "text",
@@ -1555,10 +1639,15 @@
             "Language": "Chinese"
           },
           "performance": {
-            "type": "",
+            "Quant": "FP32",
             "Audio Duration": "",
             "Processing Time": "",
-            "RTF": ""
+            "RTF": "0.49",
+            "Task": "Text-to-Speech",
+            "量化类型": "Q4_0",
+            "任务": "语音合成",
+            "音频时长": "",
+            "处理时间": ""
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/tts/matcha-tts/matcha-icefall-zh-baker.tar.gz",
           "plat": [
@@ -1568,7 +1657,7 @@
         {
           "id": "matcha-icefall-zh-en",
           "categoryIds": [
-            "audio"
+            "speech"
           ],
           "iconSrc": "",
           "experienceKind": "text",
@@ -1585,10 +1674,15 @@
             "Language": "Chinese-English"
           },
           "performance": {
-            "type": "",
+            "Quant": "FP32",
             "Audio Duration": "",
             "Processing Time": "",
-            "RTF": ""
+            "RTF": "0.49",
+            "Task": "Text-to-Speech",
+            "量化类型": "Q4_0",
+            "任务": "语音合成",
+            "音频时长": "",
+            "处理时间": ""
           },
           "downloadUrl": "https://archive.spacemit.com/spacemit-ai/model_zoo/tts/matcha-tts/matcha-icefall-zh-en.tar.gz",
           "plat": [
